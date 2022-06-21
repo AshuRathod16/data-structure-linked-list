@@ -11,9 +11,10 @@ public class LinkedListMain {
         System.out.println("List after adding element in middle of the list is");
         linkedList.addInBetween(56, 70, 30);
         linkedList.toPrint();
-        System.out.println("Linked list after deleting last element");
-        linkedList.deleteLast();
+        System.out.println("Searching element");
+        linkedList.findNode(30);
         linkedList.toPrint();
+
 
     }
 }
